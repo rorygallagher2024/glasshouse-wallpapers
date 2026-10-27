@@ -14,5 +14,3 @@ they are not part of the Glasshouse download.
 Each is a 1920 × 1080 JPEG. Glasshouse fetches them from a tag, `v1`, and
 checks each against the checksum it carries, so a file here is never changed
 in place: a new set gets a new tag.
-
-The images are AI-generated.
