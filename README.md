@@ -1,10 +1,10 @@
 # Glasshouse wallpapers
 
-Example wallpapers for Glasshouse Home, one for each time of day. The Home tab
-of the Glasshouse dashboard adds them to empty wallpaper slots on request, so
-they are not part of the Glasshouse download.
+Wallpaper sets for Glasshouse Home, one picture for each time of day. A set is
+chosen on the Home tab of the Glasshouse dashboard and downloaded to the TV
+then, so the sets are not part of the Glasshouse download.
 
-## Default
+## Landscape
 
 | Slot | File |
 | --- | --- |
@@ -24,6 +24,6 @@ Pictures by [@Nutcasey](https://github.com/Nutcasey).
 | Evening (17:00 to 21:00) | `abstract/evening.jpg` |
 | Night (21:00 to 6:00) | `abstract/night.jpg` |
 
-Each is a 1920 × 1080 JPEG. Glasshouse fetches them from a tag, `v1`, and
-checks each against the checksum it carries, so a file here is never changed
-in place: a new set gets a new tag.
+Each is a 1920 × 1080 JPEG. Glasshouse fetches them from a tag, `v2`, and
+checks each against the checksum it carries, so a file at a tag is never
+changed: a new or changed set gets a new tag.
